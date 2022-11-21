@@ -1,0 +1,5 @@
+.password__container {
+    display: table-cell;
+    vertical-align: middle !important;
+    /* Align this to center */
+}

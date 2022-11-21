@@ -1,0 +1,134 @@
+.profile__section {
+    /* display: flex; */
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    /* top: 10px; */
+}
+
+.profile__section .profile__container {
+    margin: 0 auto;
+    /* padding: 40px 20px; */
+    display: flex;
+}
+
+.profile__container .left__profile {
+    margin-left: 5%;
+    flex: .3;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.left__profile h1 {
+    margin-top: 2rem;
+    font-weight: 600;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 0, 0.783);
+}
+
+.left__profile .left__box {
+    margin-top: 2rem;
+    width: 250px;
+    height: 300px;
+    /* background-color: black; */
+    border: 2px solid black;
+}
+
+.left__box .profile__square {
+    height: 250px;
+    background-color: black;
+}
+
+.circle__profile {
+    display: block;
+    margin: auto;
+    width: 80%;
+    /* margin-right: auto; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.circle__profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.left__box h3 {
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 9px;
+}
+
+.profile__container .right__pofile {
+    flex: .6;
+    margin-right: -50px;
+    padding: 0 20px;
+    /* vertical align */
+    /* border-radius: 2px; */
+}
+
+.right__pofile .right__box {
+    display: flex;
+    margin-top: 6rem;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.651);
+    min-height: 10rem;
+}
+
+.right__left {
+    margin: 20px;
+    flex: 0.6;
+    list-style: none;
+}
+
+.right__left ul {
+    list-style: none;
+    padding: 4px;
+}
+
+.right__left ul li {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.right__left ul li span {
+    color: rgb(47, 92, 255);
+}
+
+.right__right {
+    flex: 0.4;
+    margin: 20px;
+}
+
+.right__right ul {
+    list-style: none;
+    padding: 4px;
+}
+
+.right__right ul li {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.right__right ul li span {
+    color: rgb(47, 92, 255);
+}
+
+.right__right .edit {
+    width: fit-content;
+    height: fit-content !important;
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    /* Align right end */
+}
+
+.save__btn {
+    margin-top: 20px;
+    display: block;
+    margin-left: 45%;
+}
