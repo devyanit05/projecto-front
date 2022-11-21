@@ -1,0 +1,16 @@
+.disc__container {
+    display: flex;
+}
+
+.disc__left {
+    flex: 0.4;
+}
+
+.disc__right {
+    flex: 0.6;
+}
+
+.viewStat__container {
+    border: 1px solid black;
+    border-radius: 0;
+}

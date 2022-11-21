@@ -3,3 +3,7 @@
     vertical-align: middle !important;
     /* Align this to center */
 }
+
+.container {
+    margin: auto !important;
+}
